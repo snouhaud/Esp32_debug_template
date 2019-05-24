@@ -4,7 +4,6 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/sdkconfig",
                 "${IDF_PATH}/components/bt/bluedroid/btc/include",
                 "${IDF_PATH}/components/bt/bluedroid/bta/sys/include",
                 "${IDF_PATH}/components/bt/bluedroid/bta/sdp/include",
@@ -112,7 +111,6 @@
                 "databaseFilename": "${workspaceRoot}/.vscode/.browse.c_cpp.db",
                 "path": [
                     "${workspaceFolder}/**",
-                    "${workspaceFolder}/sdkconfig",
                     "${IDF_PATH}/components/bt/bluedroid/btc/include",
                     "${IDF_PATH}/components/bt/bluedroid/bta/sys/include",
                     "${IDF_PATH}/components/bt/bluedroid/bta/sdp/include",
