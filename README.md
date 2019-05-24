@@ -101,4 +101,12 @@ Select “Load VCP” then click OK.
 
  !["image"](img/Esp32_win_gdb_debug.jpg)
 
+
  ##Happy Debugging
+
+ ## REbuild dependency
+
+ ```
+ cd $IDF_PATH
+ fd --type d "include$" components -exec echo \"\${IDF_PATH}/components/{}\", \;
+ ```
