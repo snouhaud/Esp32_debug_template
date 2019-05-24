@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "/Users/snouhaud/src/esp32/esp-idf/esp-idf-latest"
 		}
 	],
 	"extensions": {
@@ -34,12 +37,12 @@
 				{
 					"name": "Py Flash",
 					"color": "lime",
-					"command": "idf.py flash"
+					"command": "idf.py -p /dev/cu.usbserial-14613101 flash"
 				},
 				{
 					"name": "Py Monitor",
 					"color": "orange",
-					"command": "idf.py monitor"
+					"command": "idf.py -p /dev/cu.usbserial-14613101 monitor"
 				},
 				{
 					"name": "Py clean",
@@ -48,12 +51,12 @@
 				}
 			]
 		},
-		"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
 		"files.associations": {
 			"freertos.h": "c",
 			"task.h": "c",
 			"sdkconfig.h": "c",
-			"gpio.h": "c"
+			"gpio.h": "c",
+			"hal.h": "c"
 		}
 	}
 }

@@ -7,7 +7,7 @@
 			"request": "launch",
 			"target": "${workspaceRoot}/build/${workspaceFolderBasename}.elf",
 			"cwd": "${workspaceFolder}",
-			"gdbpath": "C:/Program Files/Espressif/ESP-IDF Tools/tools/bin/xtensa-esp32-elf-gdb.exe",
+			"gdbpath": "/Users/snouhaud/src/esp32/xtensa-esp32-elf/bin/xtensa-esp32-elf-gdb",
 			"preLaunchTask": "OpenOCD",
 			"autorun": [
 			  "target remote :3333",
